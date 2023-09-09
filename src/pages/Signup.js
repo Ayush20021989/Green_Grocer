@@ -14,7 +14,7 @@ const Signup = () => {
 
     try {
       // Send data to the backend API endpoint
-      await axios.post("/register", {
+      await axios.post("https://green-grocer-app.onrender.com/register", {
         fname,
         lname,
         username,
