@@ -179,7 +179,7 @@ const HeaderComponent = ({ loggedIn, setLoggedIn }) => {
           </button>
           <iframe
             title="Streamlit App"
-            src="http://localhost:8501"
+            src="https://python-app-green-grocer.onrender.com"
             width="100%"
             height="600"
             style={{ border: "none", marginTop: "20px" }}
