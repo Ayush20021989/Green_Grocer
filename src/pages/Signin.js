@@ -10,7 +10,7 @@ const Signin = ({ setLoggedIn, setUsername }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("https://green-grocer-app.onrender.com/signin", {
+    const res = await fetch("https://green-grocer.onrender.com/signin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

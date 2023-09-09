@@ -8,7 +8,9 @@ function CitySearch() {
   const [cities, setCities] = useState([]);
   const [selectedCity, setSelectedCity] = useState("");
   const [selectedVegetables, setSelectedVegetables] = useState([]);
-  const [setCartItems] = useState([]);
+  // eslint-disable-next-line no-unused-vars
+  const [cartItems, setCartItems] = useState([]);
+
 
   const handleAddToCart = async (itemName, itemPrice, quantity) => {
     console.log("Adding Item to Cart:", itemName, itemPrice);
